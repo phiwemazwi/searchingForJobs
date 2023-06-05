@@ -2,7 +2,8 @@ import { createServer } from 'http';
 import url from 'url';
 import axios from 'axios';
 import chalk from 'chalk';
-import config from './config';
+import config from './config.cjs';
+
 
 
 const headers = {
